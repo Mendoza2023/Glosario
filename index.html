@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Glosario de Términos</h1>
+        </header>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Buscar término..." onkeydown="if(event.key === 'Enter') buscarTermino()">
+            <button id="buscarBtn" onclick="buscarTermino()">Buscar</button>
+        </div>
+        <div id="resultados" aria-live="polite"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

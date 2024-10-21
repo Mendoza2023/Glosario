@@ -1,0 +1,89 @@
+body {
+    background-image: url('font.jpg');
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    color: #131212;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Arial rgb(40, 183, 240); 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #ffffff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%; 
+    margin-right: 15px; 
+    border: 3px solid #080808;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2531d1; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #2a41e0; 
+}
+
+#resultados {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #21c8d4;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 800px; 
+    margin-top: 20px; 
+    text-align: justify; 
+}
+
+.term {
+    padding: 15px;
+    margin: 10px 0;
+    border-bottom: 3px solid #661362; 
+}
+
+.term:last-child {
+    border-bottom: none; 
+}
+
+.term h3 {
+    font-family: Arial rgb(223, 5, 5); 
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #1ea3d8; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin: 0 0 10px;
+}
+
+.term p {
+    margin: 0;
+}
+
